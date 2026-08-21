@@ -30,7 +30,7 @@ const INITIAL_SERVICE_OPTIONS = [
    ============================================================ */
 function PencilSketchBackground() {
   return (
-    <div className="absolute inset-0 overflow-hidden pointer-events-none select-none z-0" aria-hidden="true">
+    <div className="hidden lg:block absolute inset-0 overflow-hidden pointer-events-none select-none z-0" aria-hidden="true">
       
       {/* 1. Pipe Wrench (Top-Left) */}
       <svg viewBox="0 0 64 64" className="absolute top-7 left-[4%] w-16 h-16 opacity-30 rotate-[-18deg]" fill="none" stroke="#111827" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
